@@ -1,0 +1,77 @@
+python_django_diploma/
+├── diploma-frontend/           # Фронтенд приложение (отдельно)
+├── shopsite/                   # Основное приложение Django
+│   ├── basket/                 # Приложение корзины
+│   │   ├── migrations/
+│   │   ├── admin.py            # Админ-панель корзины
+│   │   ├── models.py           # Модели: Basket, BasketItem
+│   │   ├── serializers.py      # Сериализаторы корзины
+│   │   ├── utils.py            # Утилиты (слияние корзин)
+│   │   ── views.py            # API для корзины
+│   │
+│   ├── catalog/                # Приложение каталога
+│   │   ├── migrations/
+│   │   ├── admin.py
+│   │   ├── models.py           # Модели каталога
+│   │   ├── serializers.py
+│   │   └── views.py            # Views: CategoriesView, CatalogView, etc.
+│   │
+│   ├── orders/                 # Приложение заказов
+│   │   ├── migrations/
+│   │   ├── admin.py
+│   │   ├── models.py           # Модели: Order, OrderProduct
+│   │   ├── serializers.py
+│   │   ├── services.py         # Бизнес-логика заказов
+│   │   └── views.py            # API для заказов
+│   │
+│   ├── payment/                # Приложение оплаты
+│   │   ├── migrations/
+│   │   ├── admin.py
+│   │   ├── models.py           # Модели: Payment, PaymentQueue
+│   │   ├── serializers.py
+│   │   ── views.py            # API для оплаты
+│   │
+│   ├── shopproducts/           # Приложение товаров
+│   │   ├── migrations/
+│   │   ├── admin.py
+│   │   ├── models.py           # Модели: Product, Category, Image, Tag, Review, Specification
+│   │   ├── serializers.py
+│   │   └── views.py            # ProductViewSet, ReviewViewSet
+│   │
+│   ├── siteauth/               # Приложение авторизации
+│   │   ├── migrations/
+│   │   ├── admin.py
+│   │   ├── forms.py
+│   │   ├── models.py           # Модели: Profile, Avatar
+│   │   ├── serializers.py
+│   │   └── views.py            # SignInView, SignUpView, SignOutView
+│   │
+│   ├── tag/                    # Приложение тегов
+│   │   ├── migrations/
+│   │   ├── admin.py
+│   │   ├── models.py           # Модель Tag
+│   │   └── views.py            # GetTagViewSet
+│   │
+│   ├── userprofile/            # Приложение профиля пользователя
+│   │   ├── migrations/
+│   │   ├── admin.py
+│   │   ├── models.py
+│   │   ├── serializers.py
+│   │   └── views.py            # UserProfileView, ChangePasswordView, ChangeAvatarView
+│   │
+│   ├── management/             # Django management commands
+│   │   └── commands/
+│   │       └── load_demo_data.py  # Команда загрузки демонстрационных данных
+│   │
+│   ├── asgi.py
+│   ├── settings.py             # Настройки проекта
+│   ├── urls.py                 # Корневые URL
+│   └── wsgi.py
+│
+├── manage.py                   # Точка входа Django
+├── requirements.txt            # Зависимости проекта
+├── README.md                   # Документация
+├── db.sqlite3                  # База данных SQLite
+└── media/                      # Загруженные файлы
+    ├── categories/             # Изображения категорий
+    └── products/               # Изображения товаров

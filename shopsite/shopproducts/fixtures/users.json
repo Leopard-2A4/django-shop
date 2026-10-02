@@ -1,0 +1,128 @@
+[
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$1500000$dYHF9bVqJMQA6uumirKQRV$9Z576cF+hfl1rASrW4x8kCBkTvgJq88DIo3jvcVBjEk=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "buyer1",
+      "first_name": "Иван",
+      "last_name": "Петров",
+      "email": "buyer1@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-09-23T12:19:55.694Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$1500000$6LhohQU3YcOg1Y67tCX5WN$Nd5Cywr4WDwlDtgPaLFPqPI5nGu/SwH3JNFMcw5uZCo=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "buyer2",
+      "first_name": "Мария",
+      "last_name": "Сидорова",
+      "email": "buyer2@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-09-23T12:19:56.521Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$1500000$VRR09THcOnkLXLo45cDG5a$DMfHNZ46GQpiEsWXJGOIVZ0tYF1934bbKD/BJKzhAT8=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "buyer3",
+      "first_name": "Алексей",
+      "last_name": "Козлов",
+      "email": "buyer3@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-09-23T12:19:57.944Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$1500000$59gBgQh8tpRfso19mtbe9A$t/x70Vd5Du/P11Sw7GSyqv43Htw1p/ztwN/hb0Slibk=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "buyer4",
+      "first_name": "Елена",
+      "last_name": "Волкова",
+      "email": "buyer4@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-09-23T12:19:58.790Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$1500000$aLBjsUmXuMMome6JainArV$pUS8d7XR6NwYXXPsqK22+tdE/TmFhgA86jfLFfyf8QE=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "seller1",
+      "first_name": "Дмитрий",
+      "last_name": "Продавец",
+      "email": "seller1@example.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2026-09-23T12:19:59.645Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 6,
+    "fields": {
+      "password": "pbkdf2_sha256$1500000$MgmE4V2NGaFjcbhpWRZN1b$HZ9zy2Y9nF2gK86UtubbQ6pUA+88cd3dCm/j99aBowY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "seller2",
+      "first_name": "Ольга",
+      "last_name": "Менеджер",
+      "email": "seller2@example.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2026-09-23T12:20:00.461Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 7,
+    "fields": {
+      "password": "pbkdf2_sha256$1500000$RGJJwi63MaQflrVoFDszh5$0OLTLrGKuzgztqYbYRQYEWE4IvHKHQatVC1ncTlRhPs=",
+      "last_login": null,
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "admin@example.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2026-09-23T12:20:01.254Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  }
+]

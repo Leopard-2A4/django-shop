@@ -1,0 +1,113 @@
+[
+{
+  "model": "orders.order",
+  "pk": 1,
+  "fields": {
+    "user": 1,
+    "created_at": "2026-09-23T12:20:05.830Z",
+    "full_name": "Иван Петров",
+    "email": "buyer1@example.com",
+    "phone": "+79001111111",
+    "delivery_type": "express",
+    "payment_type": "card",
+    "total_cost": "150490.00",
+    "status": "confirmed",
+    "city": "Москва",
+    "address": "ул. Ленина, д. 1, кв. 1",
+    "archived": false,
+    "step": "confirmed"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 2,
+  "fields": {
+    "user": 2,
+    "created_at": "2026-09-23T12:20:05.900Z",
+    "full_name": "Мария Сидорова",
+    "email": "buyer2@example.com",
+    "phone": "+79002222222",
+    "delivery_type": "ordinary",
+    "payment_type": "cash",
+    "total_cost": "179990.00",
+    "status": "processing",
+    "city": "Санкт-Петербург",
+    "address": "Невский проспект, д. 10",
+    "archived": false,
+    "step": "confirmed"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 3,
+  "fields": {
+    "user": 3,
+    "created_at": "2026-09-23T12:20:05.961Z",
+    "full_name": "Алексей Козлов",
+    "email": "buyer3@example.com",
+    "phone": "+79003333333",
+    "delivery_type": "express",
+    "payment_type": "card",
+    "total_cost": "200490.00",
+    "status": "delivered",
+    "city": "Новосибирск",
+    "address": "ул. Красный проспект, д. 50",
+    "archived": false,
+    "step": "confirmed"
+  }
+},
+{
+  "model": "orders.orderproduct",
+  "pk": 1,
+  "fields": {
+    "order": 1,
+    "product": 1,
+    "title": "Ноутбук ASUS ZenBook Pro 15",
+    "description": "Мощный ноутбук с сенсорным экраном и стилусом",
+    "full_description": "Профессиональный ноутбук с 15.6\" OLED дисплеем, поддержкой стилуса ASUS Pen для рисования и заметок. Идеален для дизайнеров и художников.",
+    "price": "149990.00",
+    "category": 2,
+    "free_delivery": true,
+    "rating": "4.7",
+    "count": 1,
+    "date": "2026-09-23T12:20:05.854Z",
+    "archived": false
+  }
+},
+{
+  "model": "orders.orderproduct",
+  "pk": 2,
+  "fields": {
+    "order": 2,
+    "product": 3,
+    "title": "Дрон DJI Mavic 3 Pro",
+    "description": "Профессиональный дрон с тройной камерой",
+    "full_description": "Флагманский дрон с тройной камерой Hasselblad, 46 минут полета и дальностью до 15 км. Снимайте в качестве 5.1K.",
+    "price": "179990.00",
+    "category": 3,
+    "free_delivery": true,
+    "rating": "4.9",
+    "count": 1,
+    "date": "2026-09-23T12:20:05.921Z",
+    "archived": false
+  }
+},
+{
+  "model": "orders.orderproduct",
+  "pk": 3,
+  "fields": {
+    "order": 3,
+    "product": 4,
+    "title": "Видеокарта NVIDIA RTX 4090",
+    "description": "Флагманская видеокарта для игр и работы",
+    "full_description": "Мощнейшая видеокарта с 24 ГБ GDDR6X памяти. Поддержка DLSS 3.0 и трассировки лучей. Идеальна для 4K гейминга и 3D рендеринга.",
+    "price": "199990.00",
+    "category": 4,
+    "free_delivery": true,
+    "rating": "4.9",
+    "count": 1,
+    "date": "2026-09-23T12:20:05.982Z",
+    "archived": false
+  }
+}
+]

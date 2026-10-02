@@ -1,0 +1,496 @@
+[
+  {
+    "model": "shopproducts.product",
+    "pk": 1,
+    "fields": {
+      "full_description": "Профессиональный ноутбук с 15.6\" OLED дисплеем, поддержкой стилуса ASUS Pen для рисования и заметок. Идеален для дизайнеров и художников.",
+      "category": 2,
+      "title": "Ноутбук ASUS ZenBook Pro 15",
+      "description": "Мощный ноутбук с сенсорным экраном и стилусом",
+      "price": "149990.00",
+      "discount": 10,
+      "date": "2026-09-23T12:20:02.308Z",
+      "free_delivery": true,
+      "count": 25,
+      "rating": "4.7",
+      "limited_edition": false,
+      "available": true,
+      "sale_date_from": "2026-09-23",
+      "sale_date_to": "2026-10-23"
+    }
+  },
+  {
+    "model": "shopproducts.product",
+    "pk": 2,
+    "fields": {
+      "full_description": "Уникальный ноутбук-трансформер с откидным экраном и поддержкой стилуса Surface Slim Pen. Идеален для творчества и работы.",
+      "category": 2,
+      "title": "Ноутбук Microsoft Surface Laptop Studio",
+      "description": "Трансформер с поддержкой стилуса Surface Pen",
+      "price": "189990.00",
+      "discount": 5,
+      "date": "2026-09-23T12:20:02.414Z",
+      "free_delivery": true,
+      "count": 15,
+      "rating": "4.8",
+      "limited_edition": true,
+      "available": true,
+      "sale_date_from": null,
+      "sale_date_to": null
+    }
+  },
+  {
+    "model": "shopproducts.product",
+    "pk": 3,
+    "fields": {
+      "full_description": "Флагманский дрон с тройной камерой Hasselblad, 46 минут полета и дальностью до 15 км. Снимайте в качестве 5.1K.",
+      "category": 3,
+      "title": "Дрон DJI Mavic 3 Pro",
+      "description": "Профессиональный дрон с тройной камерой",
+      "price": "179990.00",
+      "discount": 0,
+      "date": "2026-09-23T12:20:02.434Z",
+      "free_delivery": true,
+      "count": 10,
+      "rating": "4.9",
+      "limited_edition": false,
+      "available": true,
+      "sale_date_from": null,
+      "sale_date_to": null
+    }
+  },
+  {
+    "model": "shopproducts.product",
+    "pk": 4,
+    "fields": {
+      "full_description": "Мощнейшая видеокарта с 24 ГБ GDDR6X памяти. Поддержка DLSS 3.0 и трассировки лучей. Идеальна для 4K гейминга и 3D рендеринга.",
+      "category": 4,
+      "title": "Видеокарта NVIDIA RTX 4090",
+      "description": "Флагманская видеокарта для игр и работы",
+      "price": "199990.00",
+      "discount": 15,
+      "date": "2026-09-23T12:20:02.457Z",
+      "free_delivery": true,
+      "count": 8,
+      "rating": "4.9",
+      "limited_edition": true,
+      "available": true,
+      "sale_date_from": "2026-09-23",
+      "sale_date_to": "2026-10-07"
+    }
+  },
+  {
+    "model": "shopproducts.image",
+    "pk": 1,
+    "fields": {
+      "product": 1,
+      "src": "products/photo_2026-09-01_21-47-10.jpg",
+      "alt": "Ноутбук ASUS ZenBook Pro 15 со стилусом",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopproducts.image",
+    "pk": 2,
+    "fields": {
+      "product": 2,
+      "src": "products/photo_2026-09-01_21-47-36.jpg",
+      "alt": "Ноутбук Microsoft Surface Laptop Studio со стилусом",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopproducts.image",
+    "pk": 3,
+    "fields": {
+      "product": 3,
+      "src": "products/photo_2026-09-01_21-46-42.jpg",
+      "alt": "Дрон DJI Mavic 3 Pro",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopproducts.image",
+    "pk": 4,
+    "fields": {
+      "product": 4,
+      "src": "products/photo_2026-09-01_21-46-03.jpg",
+      "alt": "Видеокарта NVIDIA RTX 4090",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopproducts.specification",
+    "pk": 1,
+    "fields": {
+      "product": 1,
+      "name": "Диагональ экрана",
+      "value": "15.6\"",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopproducts.specification",
+    "pk": 2,
+    "fields": {
+      "product": 1,
+      "name": "Процессор",
+      "value": "Intel Core i9-13900H",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopproducts.specification",
+    "pk": 3,
+    "fields": {
+      "product": 1,
+      "name": "Оперативная память",
+      "value": "32 GB",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopproducts.specification",
+    "pk": 4,
+    "fields": {
+      "product": 1,
+      "name": "Видеокарта",
+      "value": "NVIDIA RTX 4070",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopproducts.specification",
+    "pk": 5,
+    "fields": {
+      "product": 1,
+      "name": "Стилус",
+      "value": "ASUS Pen в комплекте",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopproducts.specification",
+    "pk": 6,
+    "fields": {
+      "product": 2,
+      "name": "Диагональ экрана",
+      "value": "14.4\"",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopproducts.specification",
+    "pk": 7,
+    "fields": {
+      "product": 2,
+      "name": "Процессор",
+      "value": "Intel Core i7-13700H",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopproducts.specification",
+    "pk": 8,
+    "fields": {
+      "product": 2,
+      "name": "Оперативная память",
+      "value": "32 GB",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopproducts.specification",
+    "pk": 9,
+    "fields": {
+      "product": 2,
+      "name": "Стилус",
+      "value": "Surface Slim Pen 2",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopproducts.specification",
+    "pk": 10,
+    "fields": {
+      "product": 2,
+      "name": "Форм-фактор",
+      "value": "Трансформер",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopproducts.specification",
+    "pk": 11,
+    "fields": {
+      "product": 3,
+      "name": "Время полета",
+      "value": "46 минут",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopproducts.specification",
+    "pk": 12,
+    "fields": {
+      "product": 3,
+      "name": "Дальность",
+      "value": "15 км",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopproducts.specification",
+    "pk": 13,
+    "fields": {
+      "product": 3,
+      "name": "Камера",
+      "value": "Тройная Hasselblad",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopproducts.specification",
+    "pk": 14,
+    "fields": {
+      "product": 3,
+      "name": "Разрешение видео",
+      "value": "5.1K",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopproducts.specification",
+    "pk": 15,
+    "fields": {
+      "product": 3,
+      "name": "Вес",
+      "value": "958 г",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopproducts.specification",
+    "pk": 16,
+    "fields": {
+      "product": 4,
+      "name": "Память",
+      "value": "24 GB GDDR6X",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopproducts.specification",
+    "pk": 17,
+    "fields": {
+      "product": 4,
+      "name": "Частота ядра",
+      "value": "2520 МГц",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopproducts.specification",
+    "pk": 18,
+    "fields": {
+      "product": 4,
+      "name": "CUDA ядра",
+      "value": "16384",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopproducts.specification",
+    "pk": 19,
+    "fields": {
+      "product": 4,
+      "name": "Интерфейс",
+      "value": "PCIe 4.0 x16",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopproducts.specification",
+    "pk": 20,
+    "fields": {
+      "product": 4,
+      "name": "TDP",
+      "value": "450W",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopproducts.tag",
+    "pk": 1,
+    "fields": {
+      "product": 1,
+      "name": "со стилусом",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopproducts.tag",
+    "pk": 2,
+    "fields": {
+      "product": 1,
+      "name": "для дизайнеров",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopproducts.tag",
+    "pk": 3,
+    "fields": {
+      "product": 2,
+      "name": "трансформер",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopproducts.tag",
+    "pk": 4,
+    "fields": {
+      "product": 2,
+      "name": "со стилусом",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopproducts.tag",
+    "pk": 5,
+    "fields": {
+      "product": 2,
+      "name": "лимитированная серия",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopproducts.tag",
+    "pk": 6,
+    "fields": {
+      "product": 3,
+      "name": "профессиональный",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopproducts.tag",
+    "pk": 7,
+    "fields": {
+      "product": 3,
+      "name": "4K видео",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopproducts.tag",
+    "pk": 8,
+    "fields": {
+      "product": 4,
+      "name": "флагман",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopproducts.tag",
+    "pk": 9,
+    "fields": {
+      "product": 4,
+      "name": "для 4K гейминга",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopproducts.tag",
+    "pk": 10,
+    "fields": {
+      "product": 4,
+      "name": "распродажа",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopproducts.review",
+    "pk": 1,
+    "fields": {
+      "product": 1,
+      "author": 1,
+      "text": "Отличный ноутбук для рисования! Стилус работает идеально.",
+      "rate": 5,
+      "date": "2026-09-23T12:20:05.551Z",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopproducts.review",
+    "pk": 2,
+    "fields": {
+      "product": 1,
+      "author": 2,
+      "text": "Мощная машина, но тяжеловат.",
+      "rate": 4,
+      "date": "2026-09-23T12:20:05.585Z",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopproducts.review",
+    "pk": 3,
+    "fields": {
+      "product": 2,
+      "author": 3,
+      "text": "Невероятный трансформер, очень удобный для работы.",
+      "rate": 5,
+      "date": "2026-09-23T12:20:05.707Z",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopproducts.review",
+    "pk": 4,
+    "fields": {
+      "product": 3,
+      "author": 1,
+      "text": "Дрон просто космос! Качество съемки потрясающее.",
+      "rate": 5,
+      "date": "2026-09-23T12:20:05.733Z",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopproducts.review",
+    "pk": 5,
+    "fields": {
+      "product": 3,
+      "author": 4,
+      "text": "Летает долго, батарея держит отлично.",
+      "rate": 4,
+      "date": "2026-09-23T12:20:05.755Z",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopproducts.review",
+    "pk": 6,
+    "fields": {
+      "product": 4,
+      "author": 2,
+      "text": "Тянет все игры на ультра настройках в 4K!",
+      "rate": 5,
+      "date": "2026-09-23T12:20:05.778Z",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopproducts.review",
+    "pk": 7,
+    "fields": {
+      "product": 4,
+      "author": 3,
+      "text": "Для 3D рендеринга - идеальна.",
+      "rate": 5,
+      "date": "2026-09-23T12:20:05.807Z",
+      "archived": false
+    }
+  }
+]
